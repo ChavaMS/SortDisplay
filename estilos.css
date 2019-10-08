@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url("fondo.jpg");
+	margin: 0;
+}
+
+div{
+	display: inline-block;
+}
+
+.izquierda{
+	color: white;
+	float: left;
+	margin-left: 10px;
+}
+.centro{
+	margin-left: 25%;
+	margin-top: 25px;
+}
+.derecha{
+	margin-right: 10px;
+	float: right;
+	color: white;
+}
+
+#canvas1{
+	background: "rgba(67,166,196,0)";
+}
