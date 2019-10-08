@@ -1,5 +1,5 @@
 window.onload = function(){
-								//131
+								
 	let arreglo = generarArreglo(585);
 	sortDraw(arreglo);
 	//-----START-------
