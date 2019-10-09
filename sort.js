@@ -1,6 +1,6 @@
 window.onload = function(){
 								
-	let arreglo = generarArreglo(585);
+	let arreglo = generarArreglo(650);
 	sortDraw(arreglo);
 	//-----START-------
 	document.getElementById("start").addEventListener("click",() => {
@@ -14,7 +14,7 @@ window.onload = function(){
 		switch(opcion)
 		{
 			case 0:
-				arreglo = generarArreglo(131);
+				arreglo = generarArreglo(144);
 				sortDraw(arreglo);
 				ordenamientoBurbuja(arreglo);
 				break;
